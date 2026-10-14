@@ -1,21 +1,5 @@
 # 💰 Expense Tracker | C++
 
-\<p align="center">
-&#x20; \<strong>A Simple, Menu-Driven Personal Budget and Expense Management System\</strong>
-&#x20; \<br>
-&#x20; Built with C++ to practise programming fundamentals, file handling, and application design.
-\</p>
-
-\<p align="center">
-&#x20; \<a href="[https://github.com/prathamchahwala/Expense-Tracker](https://github.com/prathamchahwala/Expense-Tracker)">
-&#x20;   \<img src="[https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)" alt="C++">
-&#x20; \</a>
-&#x20; \<img src="[https://img.shields.io/badge/Interface-CLI-333333?style=for-the-badge](https://img.shields.io/badge/Interface-CLI-333333?style=for-the-badge)" alt="Command Line Interface">
-&#x20; \<img src="[https://img.shields.io/badge/Project-Open%20Source-2EA44F?style=for-the-badge](https://img.shields.io/badge/Project-Open%20Source-2EA44F?style=for-the-badge)" alt="Open Source Project">
-\</p>
-
----
-
 ## 📌 About the Project
 
 **Expense Tracker** is a C++ application designed to help users manage their budgets and keep track of everyday expenses through a simple command-line interface.
