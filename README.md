@@ -1,95 +1,87 @@
-# 💰 Expense Tracker — C++
+# 💰 Expense Tracker | C++
 
-A simple, menu-driven **Expense Tracker built with C++** to manage your budget, record daily expenses, and monitor your remaining balance. This project demonstrates core C++ programming concepts and object-oriented programming through a practical command-line application.
+\<p align="center">
+&#x20; \<strong>A Simple, Menu-Driven Personal Budget and Expense Management System\</strong>
+&#x20; \<br>
+&#x20; Built with C++ to practise programming fundamentals, file handling, and application design.
+\</p>
 
-<p align="center">
-  <strong>Built with C++ | Command-Line Interface | File Handling</strong>
-</p>
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [How to Use](#-how-to-use)
-- [Core Concepts](#-core-concepts)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
+\<p align="center">
+&#x20; \<a href="[https://github.com/prathamchahwala/Expense-Tracker](https://github.com/prathamchahwala/Expense-Tracker)">
+&#x20;   \<img src="[https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)" alt="C++">
+&#x20; \</a>
+&#x20; \<img src="[https://img.shields.io/badge/Interface-CLI-333333?style=for-the-badge](https://img.shields.io/badge/Interface-CLI-333333?style=for-the-badge)" alt="Command Line Interface">
+&#x20; \<img src="[https://img.shields.io/badge/Project-Open%20Source-2EA44F?style=for-the-badge](https://img.shields.io/badge/Project-Open%20Source-2EA44F?style=for-the-badge)" alt="Open Source Project">
+\</p>
 
 ---
 
-## 🎯 Overview
+## 📌 About the Project
 
-Managing personal expenses is an important part of financial planning. The **Expense Tracker** provides a simple way to record spending, manage a budget, and check how much money remains available.
+**Expense Tracker** is a C++ application designed to help users manage their budgets and keep track of everyday expenses through a simple command-line interface.
 
-The application runs in the terminal and provides an interactive menu for managing budget and expense records. It also saves data locally so that previously recorded information can be loaded in subsequent sessions.
+The project focuses on practical expense management while demonstrating fundamental C++ concepts, structured programming, and local file storage.
 
-### 🎯 Project Objectives
+### 🎯 Objectives
 
 - Develop a practical application using C++.
-- Apply object-oriented programming concepts.
+- Simplify budget and expense management.
+- Practise functions, classes, and object-oriented programming.
 - Understand file handling and data persistence.
-- Practise functions, program structure, and input handling.
-- Build a foundation for more advanced financial management applications.
+- Build a foundation for more advanced financial applications.
 
 ---
 
 ## ✨ Features
 
-- **💵 Budget Management** — Add a budget and keep track of available funds.
-- **📝 Expense Recording** — Record expenses with details such as date, description, and amount.
-- **📊 Expense Overview** — View recorded expenses and monitor spending.
-- **💰 Remaining Balance** — Check the remaining budget after expenses.
-- **💾 Data Persistence** — Save and load records using local file storage.
-- **🗑️ Data Reset** — Clear saved budget and expense information when required.
-- **🖥️ Interactive CLI** — Navigate through the application using a menu-driven interface.
+- 💵 **Budget Management** — Manage your available budget.
+- 📝 **Expense Recording** — Record and manage expense details.
+- 📊 **Expense Overview** — Review your recorded spending.
+- 💰 **Balance Tracking** — Monitor your remaining budget.
+- 💾 **File Handling** — Store and retrieve records locally.
+- 🔄 **Data Management** — Manage or reset stored information using the available menu options.
+- 🖥️ **Command-Line Interface** — Navigate through an interactive menu.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| C++ | Core programming language |
-| Standard C++ Library | Input, output, and general programming utilities |
-| File Handling | Saving and loading application data |
-| Object-Oriented Programming | Organizing application logic and data |
-| Terminal / Command Line | User interaction |
+| Technology             | Purpose                              |
+| ---------------------- | ------------------------------------ |
+| C++                    | Application development              |
+| Standard Library       | Input, output, and general utilities |
+| File Handling          | Local data storage                   |
+| Command-Line Interface | User interaction                     |
+| Git and GitHub         | Version control and project hosting  |
 
 ---
 
 ## 📂 Project Structure
 
-The repository is organized into source code and header files:
-
 ```text
 Expense-Tracker/
 │
-├── include/             # Header files
-├── src/                 # C++ source files
-├── .github/             # GitHub templates and configuration
-├── .gitignore           # Files excluded from version control
-└── README.md            # Project documentation
+├── include/          # Header files
+├── src/              # C++ source files
+├── .github/          # GitHub configuration
+├── .gitignore        # Ignored files
+└── README.md         # Project documentation
 ```
 
-The application uses `data.txt` for local data storage, as described in the application instructions. The file may be created when the application runs.
+**Data storage:** The application uses a local data file, such as `data.txt`, according to the implementation.
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to download, compile, and run the project locally.
+Follow the instructions below to download and run the project on your computer.
 
 ### Prerequisites
 
 Make sure you have:
 
-- A C++ compiler such as **GCC (g++)**.
-- Git installed on your computer.
+- A C++ compiler, such as GCC.
+- Git installed on your system.
 - A terminal or command-line environment.
 
 ### 1. Clone the Repository
@@ -98,79 +90,80 @@ Make sure you have:
 git clone https://github.com/prathamchahwala/Expense-Tracker.git
 ```
 
-### 2. Navigate to the Project
+### 2. Open the Project Directory
 
 ```bash
 cd Expense-Tracker
 ```
 
-### 3. Compile the Program
+### 3. Compile the Source Code
 
-Run the following command from the project root:
+From the project root, compile the `.cpp` files in the `src` directory:
 
 ```bash
 g++ -std=c++17 -Wall -Wextra -I include src/*.cpp -o Expense_Tracker
 ```
 
-This command compiles the C++ source files and creates an executable named `Expense_Tracker`.
+This command assumes that your source files are located in `src/` and that the project is compatible with C++17.
 
 ### 4. Run the Application
 
-**Linux / macOS / compatible terminals:**
+**Linux / macOS**
 
 ```bash
 ./Expense_Tracker
 ```
 
-**Windows Command Prompt:**
+**Windows**
 
-```cmd
+```bash
 Expense_Tracker.exe
 ```
 
-If your compiler or terminal does not support the source-file wildcard, compile the source files individually by specifying their filenames.
+> **Note:** If compilation fails, check the actual source-file names and the required C++ standard. Adjust the compilation command to match the repository structure.
 
 ---
 
 ## 📖 How to Use
 
-1. Launch the application.
-2. Follow the options displayed in the main menu.
-3. Add your budget amount.
-4. Record expenses using the information requested by the program.
-5. View your recorded expenses and remaining budget.
-6. Clear your saved information if you want to reset the tracker.
+1. Start the compiled application.
+2. Follow the instructions displayed in the main menu.
+3. Enter your budget when prompted.
+4. Add expenses using the available options.
+5. Review your expenses and remaining balance.
+6. Use the available data-management options as needed.
 
-Your saved information can be loaded again during subsequent runs, provided the data file remains available in the expected location.
-
----
-
-## 🧠 Core Concepts
-
-This project provides practical experience with the following programming concepts:
-
-- **C++ fundamentals:** variables, data types, operators, and control statements.
-- **Functions:** separating tasks into manageable operations.
-- **Object-oriented programming:** organizing data and behaviour into appropriate classes.
-- **File handling:** reading and writing persistent records.
-- **Input/output:** interacting with users through the terminal.
-- **Program organization:** separating declarations, implementations, and application logic.
+The exact menu options depend on the current implementation.
 
 ---
 
-## 🔮 Future Improvements
+## 🧠 Concepts Demonstrated
 
-The following enhancements could make the project more powerful:
+This project provides an opportunity to practise:
 
-- [ ] Categorize expenses, such as food, travel, education, and shopping.
-- [ ] Add monthly and yearly expense summaries.
-- [ ] Display category-wise spending reports.
-- [ ] Implement date-based expense filtering.
-- [ ] Add budget alerts when spending approaches a limit.
-- [ ] Export expense records to CSV.
-- [ ] Introduce a database such as SQLite.
-- [ ] Develop a graphical user interface.
-- [ ] Add automated tests and improved error handling.
+- C++ variables, data types, and operators.
+- Conditional statements and loops.
+- Functions and modular programming.
+- Classes and objects, where implemented.
+- File input and output.
+- Input validation and error handling.
+- Program compilation and debugging.
+
+---
+
+## 🔮 Future Enhancements
+
+Potential improvements for future versions include:
+
+- [ ] Expense categories such as food, travel, education, and shopping.
+- [ ] Monthly and yearly expense summaries.
+- [ ] Date-based expense filtering.
+- [ ] Category-wise spending reports.
+- [ ] Budget-limit alerts.
+- [ ] CSV export and import.
+- [ ] Database integration using SQLite or MySQL.
+- [ ] A graphical user interface.
+- [ ] Unit testing and additional input validation.
 
 ---
 
@@ -178,10 +171,10 @@ The following enhancements could make the project more powerful:
 
 **Pratham Chahwala**
 
-Computer Science / Engineering Student | Aspiring Software Engineer
+Aspiring Software Engineer | C++ Developer
 
 - **GitHub:** [@prathamchahwala](https://github.com/prathamchahwala)
-- **Project Repository:** [Expense-Tracker](https://github.com/prathamchahwala/Expense-Tracker)
+- **Repository:** [Expense-Tracker](https://github.com/prathamchahwala/Expense-Tracker)
 
 ---
 
@@ -189,10 +182,10 @@ Computer Science / Engineering Student | Aspiring Software Engineer
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
-Suggestions, feedback, and contributions that help improve the project are welcome.
+Feedback, suggestions, and contributions are welcome.
 
 ---
 
-<p align="center">
-  <strong>Built with ❤️ using C++</strong>
-</p>
+\<p align="center">
+&#x20; \<strong>Built with ❤️ using C++\</strong>
+\</p>
